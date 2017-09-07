@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'abcd';
+    src: url('../fonts/BebasNeue.otf');
+}
+
+body {
+    background: url('../images/wall-of-white-bricks-background_1100-187.jpg');
+}
+
+header {
+    background-color: #225274;
+    position:fixed;
+    height: 80px;
+    width: 100%;
+}
+
+nav {
+    float: right;
+}
+nav ul li {
+    /*float: right;*/
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'abcd';
+}
